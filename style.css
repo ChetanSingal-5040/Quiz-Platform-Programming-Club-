@@ -1,6 +1,3 @@
-/* ============================= */
-/* GENERAL STYLING */
-/* ============================= */
 
 * {
     margin: 0;
@@ -22,9 +19,6 @@ body {
 }
 
 
-/* ============================= */
-/* MAIN CONTAINER */
-/* ============================= */
 
 .container {
     width: 100%;
@@ -44,9 +38,6 @@ body {
 }
 
 
-/* ============================= */
-/* HEADINGS */
-/* ============================= */
 
 h1 {
     color: #8b83ff;
@@ -77,9 +68,6 @@ p {
 }
 
 
-/* ============================= */
-/* LOGIN SCREEN */
-/* ============================= */
 
 #login-screen {
     padding: 20px 0;
@@ -113,9 +101,6 @@ p {
 }
 
 
-/* ============================= */
-/* BUTTONS */
-/* ============================= */
 
 button {
     background: #e3e2e7;
@@ -152,9 +137,7 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* CONTINUE BUTTON */
-/* ============================= */
+
 
 #continue {
     width: 100%;
@@ -169,9 +152,6 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* START SCREEN */
-/* ============================= */
 
 #start-screen {
     padding: 20px 0;
@@ -199,18 +179,12 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* HIDE SCREENS */
-/* ============================= */
 
 .hidden {
     display: none !important;
 }
 
 
-/* ============================= */
-/* QUESTION SCREEN */
-/* ============================= */
 
 #question-screen {
     width: 100%;
@@ -240,9 +214,7 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* PROGRESS BAR */
-/* ============================= */
+
 
 .progress-bar {
     width: 100%;
@@ -267,9 +239,6 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* OPTIONS */
-/* ============================= */
 
 #options-container {
     display: flex;
@@ -317,10 +286,6 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* NAVIGATION BUTTONS */
-/* ============================= */
-
 .navigation {
     display: flex;
 
@@ -361,10 +326,6 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* RESULT SCREEN */
-/* ============================= */
-
 #result-screen {
     width: 100%;
 }
@@ -383,11 +344,6 @@ button:disabled {
 
     margin-bottom: 25px;
 }
-
-
-/* ============================= */
-/* ANSWER REVIEW */
-/* ============================= */
 
 #review-container {
     width: 100%;
@@ -432,50 +388,4 @@ button:disabled {
 }
 
 
-/* ============================= */
-/* MOBILE RESPONSIVE */
-/* ============================= */
 
-@media (max-width: 480px) {
-
-    body {
-        padding: 12px;
-    }
-
-    .container {
-        padding: 20px 15px;
-
-        min-height: 350px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    #question-text {
-        font-size: 18px;
-    }
-
-    .option {
-        padding: 13px;
-        font-size: 14px;
-    }
-
-    .navigation {
-        gap: 8px;
-    }
-
-    .navigation button {
-        min-width: 90px;
-        padding: 12px 10px;
-        font-size: 13px;
-    }
-
-    #score {
-        font-size: 24px;
-    }
-}
